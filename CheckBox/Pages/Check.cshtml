@@ -14,17 +14,17 @@
 
 
 
-        <form>
+        <form method="post">
             <h3>Pessoa</h3>
 
             <div class="form-group">
                 <label for="txtNome">Nome</label>
-                <input type="text" id="txtNome" class="form-control" name="nome"/>
+                <input type="text" id="txtNome" class="form-control" name="Nome"/>
             </div>
 
             <div class="form-group">
                 <label for="dllClass">Example select</label>
-                <select class="form-control" id="ddlCor" name="cor">
+                <select class="form-control" id="ddlCor" name="Cor">
                     @foreach (String item in Model.Cor)
                     {
                         <option>@item</option>}
@@ -37,7 +37,7 @@
                     {
                         <div class="form-check">
                             <label class="form-check-label">
-                                <input type="radio" class="form-check-input" name="sexo" id="optionsRadios" value="@item">
+                                <input type="radio" class="form-check-input" name="Sexo" id="optionsRadios" value="@item">
                                 @item
                             </label>
                         </div>
