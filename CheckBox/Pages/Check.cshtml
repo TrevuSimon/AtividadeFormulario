@@ -46,14 +46,16 @@
             </fieldset>
 
             <div class="form-check">
+                <legend>Escolhas</legend>
                 @{foreach (String item in Model.Escolhas)
                     {
                         <label class="form-check-label">
                             <input type="checkbox" class="form-check-input" name="Escolhas" value="@item">
                             @item
-                        </label>
+                        </label><br>
                     }
                 }
+
             </div>
             <button type="submit" class="btn btn-primary btn-block">Submit</button>
         </form>

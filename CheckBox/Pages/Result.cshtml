@@ -7,15 +7,19 @@
 
 <h2>Result</h2>
 
-Nome: @Model.Nome
-Cor: @foreach (String item in Model.Cor)
+<legend>Nome:</legend> @Model.Nome
+<br>
+<br>
+<legend>Cor:</legend> @foreach (String item in Model.Cor)
 {@item}
 <br>
-Sexo: @foreach (String item in Model.Sexo)
-{@item} 
 <br>
-Escolhas:<br>
- @foreach (String item in Model.Escolhas)
+<legend>Sexo:</legend> @foreach (String item in Model.Sexo)
+{@item}
+<br>
+<br>
+<legend>Escolhas:</legend>
+@foreach (String item in Model.Escolhas)
 {@item<br>}
 
 

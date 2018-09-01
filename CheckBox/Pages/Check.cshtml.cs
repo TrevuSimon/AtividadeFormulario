@@ -34,6 +34,18 @@ namespace CheckBox.Pages
             Escolhas.Add("Inteligente");
             Escolhas.Add("Come bolacha");
             Escolhas.Add("Come biscouto");
+            Escolhas.Add("Gosta de dormir");
+            Escolhas.Add("Dorme até tarde");
+            Escolhas.Add("Estuda muito");
+            Escolhas.Add("Vai em festas");
+            Escolhas.Add("Trabalha");
+            Escolhas.Add("Fuma");
+            Escolhas.Add("Joga");
+            Escolhas.Add("Assiste Sériado");
+            Escolhas.Add("Precisa de férias");
+            Escolhas.Add("Humilde");
+            Escolhas.Add("Orgulhoso");
+            Escolhas.Add("Gosta de leitura");
         }
 
         public void OnGet()
