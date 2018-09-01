@@ -46,11 +46,11 @@
             </fieldset>
 
             <div class="form-check">
-                @{foreach (KeyValuePair<String, String> item in Model.Escolhas)
+                @{foreach (String item in Model.Escolhas)
                     {
                         <label class="form-check-label">
-                            <input type="checkbox" class="form-check-input" name="@item.Key">
-                            @item.Value
+                            <input type="checkbox" class="form-check-input" name="Escolhas">
+                            @item
                         </label>
                     }
                 }

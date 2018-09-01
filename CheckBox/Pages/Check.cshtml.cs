@@ -19,7 +19,7 @@ namespace CheckBox.Pages
         public List<String> Sexo { get; set; } = new List<String>();
 
         [BindProperty]
-        public Dictionary<String,String> Escolhas { get; set; } = new Dictionary<String,String>();
+        public List<String> Escolhas { get; set; } = new List<String>();
 
         public CheckModel()
         {
@@ -31,9 +31,9 @@ namespace CheckBox.Pages
             Sexo.Add("Homem");
             Sexo.Add("Mulher");
 
-            Escolhas.Add("Int","Inteligente");
-            Escolhas.Add("Bol","Come bolacha");
-            Escolhas.Add("Bis","Come biscouto");
+            Escolhas.Add("Inteligente");
+            Escolhas.Add("Come bolacha");
+            Escolhas.Add("Come biscouto");
         }
 
         public void OnGet()
